@@ -1,0 +1,48 @@
+ {% extends "BlogApp/base.html" %}
+
+ {% load static %}
+
+ {% block content %}
+
+   <!-- Heading -->
+   <section class="page-section clearfix">
+    <div class="container">
+      <div class="intro">
+        <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="{% static 'BlogApp/img/principal.jpg' %}" alt="">
+        <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+          <h2 class="section-heading mb-4" >
+            <span class="section-heading-upper">Actualidad: </span>
+            <span class="section-heading-upper">Temperatura record en el Artico</span>
+          </h2>
+          <p class="mb-3">El registro tomado en Siberia durante el verano de 2020 hace “saltar las alarmas” sobre la evolución de las condiciones climáticas. 
+              La agencia de la ONU que analiza los fenómenos meteorológicos entiende que la temperatura es “más propia del Mediterráneo que del Ártico” y, a su vez, 
+              examina otras máximas pendientes de confirmación.
+          </p>
+         
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  
+    <!-- Message -->
+    <section class="page-section cta">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-9 mx-auto">
+            <div class="cta-inner text-center rounded">
+              <h2 class="section-heading mb-4">
+                <span class="section-heading-upper">Dia de la Energia: </span>
+                <span class="section-heading-lower">Voces contra el petroleo</span>
+              </h2>
+              <p class="mb-0">Activistas fuera de la Conferencia sobre el Cambio Climático, y delegados y otros representantes que participan en ella han pedido relegar el carbón a la historia. 
+                  Un total de 77 firmantes, entre ellos Chile, se han comprometido a acabar con el uso del carbón. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+ {% endblock %}
+
+   
